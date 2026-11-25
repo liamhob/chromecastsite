@@ -19,8 +19,8 @@ Cross-platform dark-mode 4K Chromecast streaming deck, playlist queue manager, a
 ## Local Development
 
 ```bash
-npm install
-npm run dev
+bun install
+bun run dev
 ```
 
-To enable server-side Deep Reasoning (`gemini-4-carbon`), copy `.env.example` to `.env`, add your `GEMINI_API_KEY`, and run `npm run dev` or `npm run build && npm start`.
+To enable server-side Deep Reasoning (`gemini-4-carbon`), copy `.env.example` to `.env`, add your `GEMINI_API_KEY`, and run `bun run dev` or `bun run build && bun run start`.
