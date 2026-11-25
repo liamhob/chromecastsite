@@ -1,11 +1,26 @@
-<div align="center">
+# KuroCast — 4K Cast & Anime Studio
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Cross-platform dark-mode 4K Chromecast streaming deck, playlist queue manager, anime watchlist & episode tracker, multi-language subtitle synchronization studio, and installable offline PWA.
 
-  <h1>Built with AI Studio</h2>
+## Publish to GitHub Pages
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. Export or push this repository to GitHub (make sure your default branch is `main`).
+2. Open your repository on GitHub and go to **Settings → Pages**.
+3. Under **Build and deployment → Source**, choose **GitHub Actions**.
+4. Push a commit to `main` (or trigger **Actions → Deploy KuroCast to GitHub Pages → Run workflow**).
+5. Your live site will publish at `https://<your-username>.github.io/<your-repo-name>/`.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Add KuroCast to Your iPhone
 
-</div>
+1. Open your GitHub Pages URL in **Safari** on iPhone.
+2. Tap the **Share** button in the bottom toolbar.
+3. Scroll down and tap **Add to Home Screen**, then tap **Add**.
+
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+To enable server-side Deep Reasoning (`gemini-4-carbon`), copy `.env.example` to `.env`, add your `GEMINI_API_KEY`, and run `npm run dev` or `npm run build && npm start`.

@@ -1,0 +1,6 @@
+{
+  "name": "KuroCast",
+  "description": "4K Chromecast streaming deck, playlist manager, anime episode tracker, multi-language subtitle sync engine, and offline PWA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
